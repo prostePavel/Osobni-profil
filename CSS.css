@@ -1,0 +1,32 @@
+header {
+    align-items: center;
+    overflow: hidden;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+nav p {
+    color: cornflowerblue;
+    text-align: left;
+    float:left;
+    justify-content: left;
+}
+
+nav ul {
+    list-style: none;
+    padding: 5px;
+    display: flex;
+    gap: 10px;
+    justify-content: right;
+    float: right;
+    align-items: center;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
